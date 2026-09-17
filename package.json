@@ -1,0 +1,14 @@
+{
+  "name": "secullum-expo-modules-interfaces",
+  "version": "1.0.0",
+  "description": "Shared Android interfaces used by Secullum's Expo module forks (secullum-expo-camera and secullum-expo-face-detector), previously injected into expo-modules-core via a patch.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Secullum/expo-modules-interfaces"
+  },
+  "license": "MIT",
+  "files": [
+    "android",
+    "expo-module.config.json"
+  ]
+}
