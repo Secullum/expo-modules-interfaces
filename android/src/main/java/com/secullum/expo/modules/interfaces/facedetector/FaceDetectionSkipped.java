@@ -1,4 +1,4 @@
-package expo.modules.interfaces.facedetector;
+package com.secullum.expo.modules.interfaces.facedetector;
 
 public interface FaceDetectionSkipped {
 
