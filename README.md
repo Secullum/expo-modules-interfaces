@@ -36,7 +36,7 @@ Só Android — não há equivalente iOS, pois o patch original também nunca te
 ```
 android/
   build.gradle
-  src/main/java/expo/modules/interfaces/facedetector/
+  src/main/java/com/secullum/expo/modules/interfaces/facedetector/
     FaceDetectionError.java
     FaceDetectionSkipped.java
     FaceDetectionUnspecifiedError.java
@@ -57,8 +57,6 @@ dependencies {
 }
 ```
 
-3. Remover o patch `expo-modules-core+<versão>.patch` (ou a parte dele referente a `expo/modules/interfaces/facedetector`) dos projetos que o aplicam.
-
 # Contribuindo
 
-Mudanças aqui afetam diretamente `secullum-expo-camera` e `secullum-expo-face-detector`. Ao alterar qualquer interface, atualizar as duas libs e os apps que aplicam o patch antigo.
+Mudanças aqui afetam diretamente `secullum-expo-camera` e `secullum-expo-face-detector`. Ao alterar qualquer interface, atualizar as duas libs.
